@@ -1,0 +1,33 @@
+---
+layout: archive
+title: "Publications"
+author_profile: true
+permalink: /projects/index.html
+---
+
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+
+{% for project in site.projects %}
+  {% capture year %}{{ project.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+  <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+  {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+
+<div class="list__item">
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <h2 class="archive__item-title" itemprop="headline">
+    {% if project.link %}
+    <a href="{{ project.link }}">{{ project.title }}</a> <a href="{{ base_path }}{{ project.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+    {% else %}
+    <a href="{{ base_path }}{{ project.url }}" rel="permalink">{{ project.title }}</a>
+    {% endif %}
+  </h2>
+  {% if project.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ project.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+</article>
+
+</div>
+
+{% endfor %}

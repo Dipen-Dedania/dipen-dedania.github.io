@@ -1,0 +1,55 @@
+- name:
+    detail: Uni. of Chinese Academy of Sciences
+    i18n: nextcode
+  desc:
+    detail: Currently focusing on researching in the field of Multiagent Cooperation with Deep Reinforcement Learning
+    i18n: nextcode_des
+  date:
+    detail: Sep. 2016
+    i18n: nextcode_date
+  job:
+    detail: Computer sciences (Master)
+    i18n: nextcode_job
+  icon: fa-plus-square
+
+- name:
+    detail: Tohoku University (Japan)
+    i18n: netease
+  desc:
+    detail: Sponserd by Jasso Schoolarship offered by Japanese government, I did researches in fields of artificial intelligence (Mulit-agent) and IoT at Kinoshita Lab of Tohoku University
+    i18n: netease_des
+  date:
+    detail: Oct. 2014
+    i18n: nextcode_date
+  job:
+    detail: Computer sciences (Exchange Student)
+    i18n: netease_job
+  icon: fa-gamepad
+
+- name:
+    detail: Changing Majors
+    i18n: ucloud
+  desc:
+    detail: I transformed my major to Automation, which is always the best in Northeastern University.
+    i18n: ucloud_des
+  date:
+    detail: Sep. 2013
+    i18n: ucloud_date
+  job:
+    detail: Automation (Undergraduate)
+    i18n: ucloud_job
+  icon: fa-cloud
+
+- name:
+    detail: Northeastern University
+    i18n: college
+  desc:
+    detail: At July 2012, I was admiitd to Northeastern Univseristy as a mechanical engineering student.
+    i18n: college_des
+  date:
+    detail: Jul. 2012
+    i18n: college_date
+  job:
+    detail: Mechanical Engineering (Undergraduate)
+    i18n: college_job
+  icon: fa-book

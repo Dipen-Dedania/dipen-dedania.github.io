@@ -1,0 +1,17 @@
+# main links links
+main:
+
+  - title: "Home"
+    url: /
+
+  - title: "Blogs"
+    url: /posts/
+
+  - title: "Research"
+    url: /projects/
+
+  - title: "Message Board"
+    url: /message/
+
+  - title: "Contact me"
+    url: /contact/

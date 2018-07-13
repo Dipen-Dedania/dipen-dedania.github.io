@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center wow zoomIn" id="i18_skills">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="skills.my_skills">Skills</span></h1>
+        </div>
+    </div>
+    <div class="row features-block" style="font-size:13px">
+        {% for skill in site.data.skills %}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        <div class="w3-row">
+            <div class="w3-col w3-container m1 l2"></div>
+            <div class="w3-col w3-container m1 l1 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+                <p>{{ skill.name }}</p>
+            </div>
+            <div class="w3-col w3-container m7 l7 wow  {% if loopindex == 1 %} fadeInRight {% else %} fadeInLeft {% endif %}">
+                <div class="w3-progress-container w3-round">
+                    <div class="w3-progressbar w3-round w3-blue" style="width:{{ skill.percentage }}%"></div>
+                </div>
+            </div>
+            <div class="w3-col w3-container m2 l2"></div>
+        </div>
+        <br>
+        {% endfor %}
+    </div>
+</div>
