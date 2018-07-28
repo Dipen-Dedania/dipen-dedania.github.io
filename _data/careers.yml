@@ -1,55 +1,41 @@
 - name:
-    detail: Uni. of Chinese Academy of Sciences
-    i18n: nextcode
-  desc:
-    detail: Currently focusing on researching in the field of Multiagent Cooperation with Deep Reinforcement Learning
-    i18n: nextcode_des
-  date:
-    detail: Sep. 2016
-    i18n: nextcode_date
-  job:
-    detail: Computer sciences (Master)
-    i18n: nextcode_job
-  icon: fa-plus-square
-
-- name:
-    detail: Tohoku University (Japan)
+    detail: Zuru Tech (Ahmedabad)
     i18n: netease
   desc:
-    detail: Sponserd by Jasso Schoolarship offered by Japanese government, I did researches in fields of artificial intelligence (Mulit-agent) and IoT at Kinoshita Lab of Tohoku University
+    detail: Worked on revolutionary software to create next generation architecture software and automation with power of Unreal engine and CEF.
     i18n: netease_des
   date:
-    detail: Oct. 2014
+    detail: Apr. 2017
     i18n: nextcode_date
   job:
-    detail: Computer sciences (Exchange Student)
+    detail: Tech Lead
     i18n: netease_job
   icon: fa-gamepad
 
 - name:
-    detail: Changing Majors
+    detail: Maruti Techlabs (Ahmedabad)
     i18n: ucloud
   desc:
-    detail: I transformed my major to Automation, which is always the best in Northeastern University.
+    detail: Worked on many technologies with such web, mobile, cloud services for automative industry also worked on logistic startup.
     i18n: ucloud_des
   date:
-    detail: Sep. 2013
+    detail: Oct. 2012
     i18n: ucloud_date
   job:
-    detail: Automation (Undergraduate)
+    detail: Full stack developer
     i18n: ucloud_job
   icon: fa-cloud
 
 - name:
-    detail: Northeastern University
+    detail: Srinivas Institute of Technology
     i18n: college
   desc:
-    detail: At July 2012, I was admiitd to Northeastern Univseristy as a mechanical engineering student.
+    detail: In 2012, I have compeleted information science from SIT.
     i18n: college_des
   date:
-    detail: Jul. 2012
+    detail: 2008 - 2012
     i18n: college_date
   job:
-    detail: Mechanical Engineering (Undergraduate)
+    detail: Software Engineering
     i18n: college_job
   icon: fa-book
