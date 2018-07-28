@@ -1,17 +1,14 @@
-- name: Java
-  percentage: 85
-
-- name: Ruby
+- name: ReactJS
   percentage: 80
 
-- name: HTML/CSS/JS
+- name: Python
   percentage: 75
 
-- name: Python
-  percentage: 70
+- name: HTML/CSS/JS
+  percentage: 85
+
+- name: NodeJS
+  percentage: 75
   
-- name: Linux Shell
-  percentage: 70
-  
-- name: Matlab
-  percentage: 65
+- name: .Net
+  percentage: 75
