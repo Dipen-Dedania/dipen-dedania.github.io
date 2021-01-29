@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dipen-dedania.github.io
+Token: 4a8854e547a66ae4985c49e48ec43e8a6ee63724064832f46a95c80f8ec5d34e
